@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">	
+  <test name="注册">					
+    <classes>
+      <class name="com.lemon.cases.RegisterCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="0"></parameter>
+  </test> <!--  Test -->
+ 
+  <test name="登录">					
+    <classes>
+      <class name="com.lemon.cases.LoginCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="1"></parameter>
+  </test> <!-- Test -->
+  
+  <test name="充值">					
+    <classes>
+      <class name="com.lemon.cases.RechargeCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="2"></parameter>
+  </test> <!-- Test -->
+  <test name="新增项目">					
+    <classes>
+      <class name="com.lemon.cases.AddCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="3"></parameter>
+  </test> <!-- Test -->
+      
+  <test name="管理员登录">					
+    <classes>
+      <class name="com.lemon.cases.LoginCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="4"></parameter>
+  </test> <!-- Test -->
+  
+  <test name="审核">					
+    <classes>
+      <class name="com.lemon.cases.AuditCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="5"></parameter>
+  </test> <!-- Test -->
+  
+  <test name="投资">					
+    <classes>
+      <class name="com.lemon.cases.InvestCase"/>
+    </classes>
+    <parameter name="sheetIndex" value="6"></parameter>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
